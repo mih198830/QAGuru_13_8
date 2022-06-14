@@ -6,7 +6,7 @@ import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selenide.$;
 
 public class SoftAssertionPage {
-    SelenideElement jUnit5Block = $("#user-content-3-using-junit5-extend-test-class");
+    SelenideElement jUnit5Block = $("h4 a#user-content-3-using-junit5-extend-test-class");
 
     public SoftAssertionPage codeOnThePageJunit5() {
         jUnit5Block.shouldBe(visible);

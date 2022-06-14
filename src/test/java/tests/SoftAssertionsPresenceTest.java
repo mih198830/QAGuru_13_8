@@ -17,8 +17,8 @@ GitHubSelenideWikiPage gitHubSelenideWikiPage = new GitHubSelenideWikiPage();
     void assertionsTest() {
         gitHubSelenidePage.openPage()
                 .clickWikiTabOnGitHubPage();
-        gitHubSelenideWikiPage.softAssertionTextOnThePage()
-                .softAssertionLinkClick();
+        gitHubSelenideWikiPage.clickMorePagesButton()
+                .clickSoftAssertionsLink();
         softAssertionPage.codeOnThePageJunit5();
     }
 }

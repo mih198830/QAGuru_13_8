@@ -1,20 +1,23 @@
 package pages;
 
-import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 
+import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 
 public class GitHubSelenideWikiPage {
-    SelenideElement SoftAssertions = $("#wiki-body [href=\"/selenide/selenide/wiki/SoftAssertions\"]");
+    SelenideElement softAssertions = $("#wiki-body [href=\"/selenide/selenide/wiki/SoftAssertions\"]");
+    SelenideElement morePagesButton = $(".js-wiki-more-pages-link");
+    SelenideElement softAssertionLinkClick = $("#wiki-pages-box").$$("a").findBy(text("SoftAssertions"));
 
-    public GitHubSelenideWikiPage softAssertionTextOnThePage() {
-        SoftAssertions.shouldHave(Condition.text("Soft assertions"));
+
+    public GitHubSelenideWikiPage clickMorePagesButton() {
+        morePagesButton.click();
         return this;
     }
 
-    public SoftAssertionPage softAssertionLinkClick() {
-        SoftAssertions.click();
-        return new SoftAssertionPage();
+    public GitHubSelenideWikiPage clickSoftAssertionsLink(){
+        softAssertionLinkClick.click();
+        return this;
     }
 }
