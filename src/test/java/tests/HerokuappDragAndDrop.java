@@ -81,6 +81,5 @@ public class HerokuappDragAndDrop {
         $("#column-a").shouldHave(text("B"));
         $("#column-b").shouldHave(text("A"));
     }
-
 }
 
