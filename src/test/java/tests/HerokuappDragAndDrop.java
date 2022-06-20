@@ -72,6 +72,7 @@ public class HerokuappDragAndDrop {
         });
     }
 
+    @Test
     void testWithListener() {
         SelenideLogger.addListener("allure", new AllureSelenide());
         open("https://the-internet.herokuapp.com/drag_and_drop");
@@ -81,3 +82,4 @@ public class HerokuappDragAndDrop {
     }
 
 }
+
