@@ -19,7 +19,7 @@ import static io.qameta.allure.Allure.step;
 public class HerokuappDragAndDrop {
     @Test
     @DisplayName("Test Drag and drop To selenide method")
-    @Description("Checking that drag and drop functionality working as expected")
+    @Description("Lambda Way, Checking that drag and drop functionality working as expected")
     @Link("https://github.com/")
     @Severity(SeverityLevel.CRITICAL)
     @Owner("Matskevich Mikhail")
@@ -73,6 +73,7 @@ public class HerokuappDragAndDrop {
     }
 
     @Test
+    @Description("Clear test with listener")
     void testWithListener() {
         SelenideLogger.addListener("allure", new AllureSelenide());
         open("https://the-internet.herokuapp.com/drag_and_drop");

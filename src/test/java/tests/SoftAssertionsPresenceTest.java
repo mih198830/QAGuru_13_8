@@ -19,7 +19,7 @@ GitHubSelenideWikiPage gitHubSelenideWikiPage = new GitHubSelenideWikiPage();
 
     @Test()
     @DisplayName("Soft Assertion present on the wiki page and JUnit code exist also")
-    @Description("Checking that JUnit 5 block code present on the Selenide page")
+    @Description("Step method, Checking that JUnit 5 block code present on the Selenide page")
 
     void assertionsTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
