@@ -26,7 +26,7 @@ public class HerokuappDragAndDrop {
     @Story("Main functionality story")
     @Epic("Never ending work")
     @Feature("Drag&Drop functionality")
-    void DragAndDropTest() {
+    void dragAndDropTest() {
         SelenideLogger.addListener("allure", new AllureSelenide());
         step("Open main page of herokuapp", () -> {
             open("https://the-internet.herokuapp.com/drag_and_drop");
@@ -71,4 +71,13 @@ public class HerokuappDragAndDrop {
             );
         });
     }
+
+    void testWithListener() {
+        SelenideLogger.addListener("allure", new AllureSelenide());
+        open("https://the-internet.herokuapp.com/drag_and_drop");
+        $("#column-a").dragAndDropTo("#column-b");
+        $("#column-a").shouldHave(text("B"));
+        $("#column-b").shouldHave(text("A"));
+    }
+
 }
