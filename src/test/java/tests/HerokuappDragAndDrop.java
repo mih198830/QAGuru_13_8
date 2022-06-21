@@ -27,7 +27,6 @@ public class HerokuappDragAndDrop {
     @Epic("Never ending work")
     @Feature("Drag&Drop functionality")
     void dragAndDropTest() {
-        SelenideLogger.addListener("allure", new AllureSelenide());
         step("Open main page of herokuapp", () -> {
             open("https://the-internet.herokuapp.com/drag_and_drop");
             attachment("Source", webdriver().driver().source());

@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76fe20c6-b6f5-4ae0-b62b-b096619954a1" name="Changes" comment="updated descriptions">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+    <list default="true" id="76fe20c6-b6f5-4ae0-b62b-b096619954a1" name="Changes" comment="space removed">
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/HerokuappDragAndDrop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HerokuappDragAndDrop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +94,7 @@
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.QAGuru_8_GigHubTestSearch [allureServe]">
+  <component name="RunManager" selected="Gradle.HerokuappDragAndDrop.dragAndDropTest">
     <configuration name="HerokuappDragAndDrop" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -127,7 +118,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HerokuappDragAndDrop.DragAndDropTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HerokuappDragAndDrop.dragAndDropTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -140,7 +131,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.HerokuappDragAndDrop.DragAndDropTest&quot;" />
+            <option value="&quot;tests.HerokuappDragAndDrop.dragAndDropTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -217,11 +208,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HerokuappDragAndDrop.dragAndDropTest" />
         <item itemvalue="Gradle.QAGuru_8_GigHubTestSearch [allureServe]" />
         <item itemvalue="Gradle.QAGuru_8_GigHubTestSearch [test]" />
         <item itemvalue="Gradle.HerokuappDragAndDrop" />
         <item itemvalue="Gradle.HerokuappDragAndDrop.testWithListener" />
-        <item itemvalue="Gradle.HerokuappDragAndDrop.DragAndDropTest" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +267,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655709947816</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test name fix">
+      <created>1655710265406</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655710265406</updated>
+    </task>
+    <task id="LOCAL-00008" summary="space removed">
+      <created>1655710328245</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1655710328245</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,6 +302,8 @@
     <MESSAGE value="method name fix" />
     <MESSAGE value="clean test #3 added selenide with listener" />
     <MESSAGE value="updated descriptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated descriptions" />
+    <MESSAGE value="test name fix" />
+    <MESSAGE value="space removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="space removed" />
   </component>
 </project>
